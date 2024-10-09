@@ -304,11 +304,11 @@
     - id: styling_techniques_nativewind
     - id: styling_techniques_react_native_unistyles
     - id: styling_techniques_restyle
-    - id: styling_techniques_styled_components
     - id: styling_techniques_style_sheet
+    - id: styling_techniques_styled_components
     - id: styling_techniques_tailwind_rn
-    - id: styling_techniques_twrnc
     - id: styling_techniques_tamagui
+    - id: styling_techniques_twrnc
     - id: styling_techniques_other
       template: projects
       intlId: tools.other_tools
@@ -360,9 +360,9 @@
     - id: animations_moti
     - id: animations_react_native_animatable
     - id: animations_react_native_reanimated
-    - id: animations_skia
     - id: animations_react_three_fiber
     - id: animations_rive
+    - id: animations_skia
     - id: animations_threejs
     - id: animations_other
       template: projects
@@ -559,15 +559,15 @@
       template: featurev3
     - id: react_native_features_fabric
       template: featurev3
+    - id: react_native_features_hermes_runtime
+      template: featurev3
     - id: react_native_features_jsc_runtime
       template: featurev3
     - id: react_native_features_jsi
       template: featurev3
-    - id: react_native_features_hermes_runtime
+    - id: react_native_features_new_architecture
       template: featurev3
     - id: react_native_features_react_native_directory
-      template: featurev3
-    - id: react_native_features_new_architecture
       template: featurev3
     - id: react_native_features_turbo_modules
       template: featurev3
