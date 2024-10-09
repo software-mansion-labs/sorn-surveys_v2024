@@ -9,7 +9,6 @@
   questions:
     - id: developer_background_before
       template: multipleWithOther
-      description: What was your background before you started using React Native? Check all that apply
       options:
         - id: developer_background_before_react
         - id: developer_background_before_ios
@@ -31,7 +30,6 @@
         - id: developer_background_usage_type_hobby
 
     - id: developer_background_primarily_system
-      description: What desktop OS do you primarily use?
       template: single
       options:
         - id: developer_background_primarily_system_macos
@@ -39,7 +37,6 @@
         - id: developer_background_primarily_system_windows
 
     - id: developer_background_users_count
-      description: What is the user count of your top React Native app?
       template: single
       options:
         - id: developer_background_users_count_only_me
@@ -51,7 +48,6 @@
         - id: developer_background_users_count_1m_plus
 
     - id: developer_background_team_size
-      description: What is your mobile app team size?
       template: single
       options:
         - id: developer_background_team_size_solo
@@ -61,7 +57,6 @@
         - id: developer_background_team_size_more_than_10
 
     - id: developer_background_platforms
-      description: What are the platforms that you use React Native for? Check all that apply
       template: multipleWithOther
       options:
         - id: developer_background_platforms_ios
@@ -75,7 +70,6 @@
 
     - id: developer_background_contribution_to_rn
       template: single
-      description: Have you contributed to React Native upstream in 2023 (commits/PRs)?
       options:
         - id: answer_yes
         - id: answer_no
@@ -87,7 +81,6 @@
         - id: answer_no
 
     - id: developer_background_releases_count
-      description: How many React Native apps have you released on Google Play or App Store?
       template: single
       options:
         - id: developer_background_releases_count_none
@@ -106,7 +99,6 @@
 
     - id: developer_background_industry_sector
       template: multipleWithOther
-      description: Which industry sector(s) are you using React Native in? Check all that apply.
       options:
         - id: developer_background_industry_sector_art_design
         - id: developer_background_industry_sector_agriculture
@@ -426,7 +418,6 @@
   questions:
     - id: react_native_app_aspects_analytics
       template: multipleWithOtherSentiment
-      description: Check all that apply
       options:
         - id: react_native_app_aspects_analytics_amplify_analytics
         - id: react_native_app_aspects_analytics_amplitude
@@ -442,7 +433,6 @@
 
     - id: react_native_app_aspects_crash_reporting
       template: multipleWithOtherSentiment
-      description: Check all that apply
       options:
         - id: react_native_app_aspects_crash_reporting_appcenter_crashes
         - id: react_native_app_aspects_crash_reporting_bugsnag
@@ -458,7 +448,6 @@
 
     - id: react_native_app_aspects_data_visualisation
       template: multipleWithOtherSentiment
-      description: Check all that apply
       options:
         - id: react_native_app_aspects_data_visualisation_react_native_charts_kit
         - id: react_native_app_aspects_data_visualisation_react_native_svg
@@ -471,7 +460,6 @@
 
     - id: react_native_app_aspects_storage
       template: multipleWithOtherSentiment
-      description: Check all that apply
       options:
         - id: react_native_app_aspects_storage_expo_sqlite
         - id: react_native_app_aspects_storage_react_native_async_storage
@@ -487,7 +475,6 @@
 
     - id: react_native_app_aspects_testing
       template: multipleWithOtherSentiment
-      description: Check all that apply
       options:
         - id: react_native_app_aspects_testing_appium
         - id: react_native_app_aspects_testing_detox
@@ -502,7 +489,6 @@
 
     - id: react_native_app_aspects_other_libraries
       template: multipleWithOtherSentiment
-      description: Check all that apply
       options:
         - id: react_native_app_aspects_other_libraries_expo_vector_icons
         - id: react_native_app_aspects_other_libraries_gorhom_bottom_sheet
@@ -630,7 +616,6 @@
     # TODO: Check how it is solve in sor
     - id: deployment_other
       template: others
-      description: "Other answers (freeform)"
     
     - id: deployment_pain_points
       matchTags: [common_pain_points, react_features]
