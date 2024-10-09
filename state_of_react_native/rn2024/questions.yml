@@ -809,10 +809,11 @@
       template: multipleWithOther
       description: What are the things that makes you feel annoyed while developing React Native apps? Check all that apply
       options:
-        - id: opinions_pain_points_multiple_app_deployment
         - id: opinions_pain_points_multiple_app_building
+        - id: opinions_pain_points_multiple_app_deployment
         - id: opinions_pain_points_multiple_build_times
         - id: opinions_pain_points_multiple_bundle_size
+        - id: opinions_pain_points_multiple_code_sharing_with_web
         - id: opinions_pain_points_multiple_continuous_deployment
         - id: opinions_pain_points_multiple_dealing_with_native_code
         - id: opinions_pain_points_multiple_debugging
@@ -821,15 +822,14 @@
         - id: opinions_pain_points_multiple_graphics_and_animations
         - id: opinions_pain_points_multiple_keyboard_handling
         - id: opinions_pain_points_multiple_managing_secrets
-        - id: opinions_pain_points_multiple_pain_monorepos
         - id: opinions_pain_points_multiple_navigation_solutions
         - id: opinions_pain_points_multiple_new_architecture
+        - id: opinions_pain_points_multiple_pain_monorepos
         - id: opinions_pain_points_multiple_performance
         - id: opinions_pain_points_multiple_platforms_inconsistencies
         - id: opinions_pain_points_multiple_project_setup
         - id: opinions_pain_points_multiple_reliance_on_third_party_modules
         - id: opinions_pain_points_multiple_setting_up_servers
-        - id: opinions_pain_points_multiple_code_sharing_with_web
         - id: opinions_pain_points_multiple_stability
         - id: opinions_pain_points_multiple_styling_limitations
         - id: opinions_pain_points_multiple_unmaintained_packages
