@@ -227,12 +227,10 @@
     - id: state_management_redux_toolkit
     - id: state_management_react_query
     - id: state_management_xstate
-      yearAdded: 2024
     - id: state_management_zustand
 
     - id: state_management_others
       template: projects
-      intlId: tools.other_tools
 
     - id: state_management_pain_points
       matchTags: [common_pain_points, react_features]
@@ -258,7 +256,6 @@
       year: 2023
     - id: data_fetching_others
       template: projects
-      intlId: tools.other_tools
 
     - id: data_fetching_pain_points
       matchTags: [common_pain_points, react_features]
@@ -282,7 +279,6 @@
 
     - id: navigation_others
       template: projects
-      intlId: tools.other_tools
 
     - id: navigation_pain_points
       matchTags: [common_pain_points, react_features]
@@ -311,7 +307,7 @@
     - id: styling_techniques_twrnc
     - id: styling_techniques_other
       template: projects
-      intlId: tools.other_tools
+
 
     - id: styling_techniques_pain_points
       matchTags: [common_pain_points, react_features]
@@ -339,7 +335,6 @@
     - id: component_libraries_tamagui
     - id: component_libraries_others
       template: projects
-      intlId: tools.other_tools
 
     - id: component_libraries_pain_points
       matchTags: [common_pain_points, react_features]
@@ -366,7 +361,6 @@
     - id: animations_threejs
     - id: animations_other
       template: projects
-      intlId: tools.other_tools
 
     - id: animations_pain_points
       matchTags: [common_pain_points, react_features]
@@ -382,27 +376,44 @@
   slug: debugging_and_profiling
   questions:
     - id: debugging_profiling_console
+      yearAdded: 2024
     - id: debugging_profiling_remote_javascript_debugging
+      yearAdded: 2024
     - id: debugging_profiling_hermes_debugger
+      yearAdded: 2024
     - id: debugging_profiling_direct_jsc_debugging
+      yearAdded: 2024
     - id: debugging_profiling_react_native_devtools
+      yearAdded: 2024
     - id: debugging_profiling_experimental_new_debugger
+      yearAdded: 2024
     - id: debugging_profiling_react_devtools
+      yearAdded: 2024
     - id: debugging_profiling_element_inspector
+      yearAdded: 2024
     - id: debugging_profiling_logbox
+      yearAdded: 2024
     - id: debugging_profiling_performance_monitor
+      yearAdded: 2024
     - id: debugging_profiling_flipper
+      yearAdded: 2024
     - id: debugging_profiling_reactotron
+      yearAdded: 2024
     - id: debugging_profiling_expo_dev_tools_plugins
+      yearAdded: 2024
     - id: debugging_profiling_react_native_performance
+      yearAdded: 2024
     - id: debugging_profiling_flashlight
+      yearAdded: 2024
     - id: debugging_profiling_react_native_flipper_performance_monitor
+      yearAdded: 2024
     - id: debugging_profiling_native_debugging
+      yearAdded: 2024
     - id: debugging_profiling_native_profiling
+      yearAdded: 2024
 
     - id: debugging_profiling_others
       template: projects
-      intlId: tools.other_tools
   
     - id: debugging_profiling_pain_points
       matchTags: [common_pain_points, react_features]
@@ -526,6 +537,8 @@
       options:
         - id: react_native_features_version_nightly
         - id: react_native_features_version_next
+        - id: react_native_features_version_0_75
+        - id: react_native_features_version_0_74
         - id: react_native_features_version_0_73
         - id: react_native_features_version_0_72
         - id: react_native_features_version_0_71
